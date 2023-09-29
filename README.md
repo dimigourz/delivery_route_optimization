@@ -1,12 +1,23 @@
-# Delivery Route Optimization
 
-# Post Office Delivery Route Optimization
+# Delivery Route Optimization Example: Vaud Post Office
 
-Optimize the delivery routes for post offices in the Vaud region of Switzerland using geospatial analysis.
+This project showcases an example of optimizing delivery routes using the post offices in the Vaud region of Switzerland as a case study.
+![Position of Post Offices in Vaud](./postofficevaud.png)
 
 ## Project Description
 
 This Python-based solution aims to provide a method for calculating optimal delivery routes among various post offices in the Vaud region. Features include geospatial coordinate extraction, efficient delivery path determination, and route visualization.
+
+### Starting and Ending Points
+
+The starting (and ending) point for our delivery routes is:
+**Poste CH SA - Base Distribution 1310 Daillens**.
+
+### Work Distribution among Drivers
+
+We will consider that we have \(N\) drivers available for deliveries. Our goal is to distribute the work such that each driver has an equal workload.
+
+![Position of Post Offices in Vaud](./routes.png)
 
 ## Key Components
 

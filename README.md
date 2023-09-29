@@ -16,8 +16,7 @@ The starting (and ending) point for our delivery routes is:
 ### Work Distribution among Drivers
 
 We will consider that we have \(N\) drivers available for deliveries. Our goal is to distribute the work such that each driver has an equal workload.
-
-![Position of Post Offices in Vaud](./routes.png)
+![Optimal routes](./routes.png)
 
 ## Key Components
 
@@ -39,6 +38,4 @@ We will consider that we have \(N\) drivers available for deliveries. Our goal i
 
 **Prerequisites**: 
 - Install the following Python libraries: osmnx, folium, osrm, shapely, requests, polyline, pandas, numpy, sklearn, scipy.
-
-**Usage**:
-1. Clone this repository: 
+ 
